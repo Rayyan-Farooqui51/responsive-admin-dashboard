@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashboard</title>
+    <link rel="stylesheet" href="./Responsive-Admin-Dashboard.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Admin Dashboard</h1>
+
+        <div class="search-component">
+
+            <button aria-label="Search">🔍</button>
+            <input type="search" id="search" placeholder="Search">
+
+        </div>
+
+        <div class="user-profile">
+
+            <span class="avatar">RF</span>
+
+            <div class="user-info">
+                <p class="user-name">Rayyan Farooqui</p>
+                <p class="user-role">Administrator</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="dashboard-container">
+
+        <aside>
+            <h2 class="logo">Dashboard Pro</h2>
+            <nav>
+                <ul class="sidebar-list">
+                    <li><a class="sidebar-anchor" href=""><span class="sidebar-icon">📊</span> <span>Dashboard</span></a></li>
+                    <li><a class="sidebar-anchor" href=""><span class="sidebar-icon">📁</span> <span>Projects</span></a></li>
+                    <li><a class="sidebar-anchor" href=""><span class="sidebar-icon">👥</span> <span>Team</span></a></li>
+                    <li><a class="sidebar-anchor" href=""><span class="sidebar-icon">📈</span> <span>Reports</span></a></li>
+                    <li><a class="sidebar-anchor" href=""><span class="sidebar-icon">⚙</span> <span>Settings</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="dashboard-content">
+
+            <section class="dashboard-summary">
+
+                <h2>Dashboard Summary</h2>
+
+                <div class="summary-cards">
+
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>Users</h3><span class="card-icon">👥</span>
+                        </div>
+                        <p class="card-value">9,598</p>
+                        <p class="card-trend">▲ +12% this month</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>Sales</h3><span class="card-icon">💰</span>
+                        </div>
+                        <p class="card-value">987,776</p>
+                        <p class="card-trend">▲ +9% this month</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>Revenue</h3><span class="card-icon">💵</span>
+                        </div>
+                        <p class="card-value">708,699</p>
+                        <p class="card-trend">▼ -3% this month</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>Orders</h3><span class="card-icon">📦</span>
+                        </div>
+                        <p class="card-value">25,230</p>
+                        <p class="card-trend">▼ -5% this month</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="project-section" >
+
+                <h2>Projects</h2>
+
+                <div class="projects">
+                    
+                    <div class="project-card">
+                        <h3>Website Redesign</h3>
+                        <p>Update the company website with a modern and responsive layout.</p>
+                        <span class="status" id="status-progress">In Progress</span>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Mobile App Launch</h3>
+                        <p>Prepare and release the first version of the mobile application.</p>
+                        <span class="status" id="status-completed">Completed</span>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>CRM System Upgrade</h3>
+                        <p>Improve customer management features and database performance.</p>
+                        <span class="status" id="status-pending">Pending</span>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Marketing Campaign</h3>
+                        <p>Plan and execute the summer digital marketing campaign.</p>
+                        <span class="status" id="status-hold">On Hold</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="activity-section">
+
+                <h2>Recent Activity</h2>
+
+                <div class="recent-activity">
+
+                    <ul class="activity-list">
+                        <li class="activity-content">
+                            <span class="activity-icon">📁</span>
+                            <div class="activity-details">
+                                <p>Rayyan created a new project "Website Redesign".</p>
+                                <span class="timestamp">2 min ago</span>
+                            </div>
+                        </li>
+                        
+                        <li class="activity-content">
+                            <span class="activity-icon">✅</span>
+                            <div class="activity-details">
+                                <p>Sarah marked "Mobile App Launch" as completed.</p>
+                                <span class="timestamp">Today</span>
+                            </div>
+                        </li>
+                        
+                        <li class="activity-content">
+                            <span class="activity-icon">✅</span>
+                            <div class="activity-details">
+                                <p>Ahmed updated the CRM System Upgrade project.</p>
+                                <span class="timestamp">Yesterday</span>
+                            </div>
+                        </li>
+                       
+                        <li class="activity-content">
+                            <span class="activity-icon">👤</span>
+                            <div class="activity-details">
+                                <p>A new team member joined the Marketing department.</p>
+                                <span class="timestamp">29/6/2026</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>
